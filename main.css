@@ -1,0 +1,86 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+* {
+	font-family: 'Raleway', sans-serif;
+}
+@media only screen and (max-width: 992px) {
+	.centered {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.name {
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+}
+.pup{
+	padding: 5px;
+}
+.banner{
+	padding: 5%;
+	max-width: 100%;
+	position: relative;
+}
+.top-row{
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.skills {
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.re-sized {
+	height: auto;
+	width: auto;
+	max-width: 100px;
+	max-height: 100px;
+}
+.col-4 {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 33.33333%;
+	float: left;
+}
+.name{
+	float: right;
+	text-align: right;
+	position: relative;
+}
+h1 {
+	font-size: 200%;
+	font-family: 'Lato', sans-serif;
+	color: #5b5b5b;
+}
+h2{
+	font-size: 100%;
+	margin-top: 0px;
+	padding-bottom: .5%
+}
+h3 {
+	text-align: center;
+	font-size: 210%;
+	font-family: 'Poiret One', cursive;
+	color: #5b5b5b;
+}
+h4 {
+	font-size: 150%;
+	color: #5b5b5b;
+	text-align: center;
+	border-radius: 6px;
+}
+p {
+	font-size: 100%;
+	text-align: center;
+	color: #5b5b5b;
+}
+.contact {
+	width: 100%;
+}
